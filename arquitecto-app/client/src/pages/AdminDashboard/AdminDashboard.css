@@ -1,0 +1,59 @@
+.admin-dashboard {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.admin-card {
+  backdrop-filter: blur(12px);
+  padding: 30px 40px;
+  border-radius: 12px;
+  max-width: 800px;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.admin-card h2 {
+  margin-bottom: 20px;
+  font-size: 26px;
+  color: #333;
+}
+
+.admin-section {
+  margin-bottom: 25px;
+}
+
+.admin-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.admin-section ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.admin-actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.admin-btn {
+  padding: 10px 20px;
+  background-color: #4b6cb7;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.admin-btn:hover {
+  background-color: #3c5aa6;
+}

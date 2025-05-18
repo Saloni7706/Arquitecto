@@ -1,0 +1,114 @@
+.login-container {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  padding: 2rem;
+}
+
+.login-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.login-container form {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-container input {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.login-container button {
+  padding: 0.75rem;
+  border: none;
+  background-color: #2f4f4f;
+  color: white;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: #1c2c2c;
+}
+
+/* Extra options section */
+.extra-options {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.extra-options a {
+  color: gray;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.extra-options a:hover {
+  text-decoration: underline;
+}
+
+/* Social login */
+.social-login {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.social-login p {
+  margin-bottom: 0.5rem;
+  color: gray;
+  font-weight: bold;
+}
+
+.google-btn,
+.facebook-btn {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.google-btn {
+  background-color: #db4437;
+  color: white;
+}
+
+.google-btn:hover {
+  background-color: #b33629;
+}
+
+.facebook-btn {
+  background-color: #3b5998;
+  color: white;
+}
+
+.facebook-btn:hover {
+  background-color: #2d4373;
+}
